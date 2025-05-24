@@ -3,8 +3,9 @@ Klasifikasi kesegaran daging menggunakan 3 jenis daging
 Dataset : https://drive.google.com/file/d/1lvRFYWOo86pGOOFdSCBTvaQ7ywmdDqut/view?usp=sharing
 
 # How to run on windows:
-## create virtual environment
+## create & activate virtual environment
 python -m venv venv
+venv/Scripts/activate.ps1
 
 ## install dependencies
 pip install -r requirements.txt
