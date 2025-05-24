@@ -13,6 +13,7 @@ CORS(app)  # Biar bisa diakses dari frontend beda port
 MODEL_PATH = 'models/model.h5'
 UPLOAD_FOLDER = 'uploads'
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
+os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
 # Load model
 model = load_model(MODEL_PATH)
